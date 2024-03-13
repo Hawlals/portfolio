@@ -1,0 +1,66 @@
+/* font */
+@import url("https://webfontworld.github.io/TheJamsil/TheJamsil.css");
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css");
+
+:root {
+    font-size: 10px;
+
+    /* color */
+    --primary-color: #0A84FF; /*original-color*/
+    --primary-color-10: #3D9EFF;
+    --primary-color-20: #70B7FF;
+    --primary-color-30: #A3D1FF;
+    --primary-color-40: #D6EBFF;
+    --grey-scale-0: #000000;
+    --grey-scale-10: #1A1A1A;
+    --grey-scale-20: #333333;
+    --grey-scale-30: #4D4D4D;
+    --grey-scale-40: #666666;
+    --grey-scale-50: #808080;
+    --grey-scale-60: #999999;
+    --grey-scale-70: #B3B3B3;
+    --grey-scale-80: #CCCCCC;
+    --grey-scale-90: #E6E6E6;
+    --grey-scale-100: #fff;
+
+    /* font-size */
+    --font-size-headline-xxl: 6.7rem; /*67px*/
+    --font-size-headline-xl: 4.8rem; /*48px*/
+    --font-size-headline-sxl:4.0rem; /*40px*/
+    --font-size-headline-sl: 3.6rem; /*36px*/
+    --font-size-headline-ssl: 3.2rem; /*32px*/
+    --font-size-headline-l: 2.8rem; /*28px*/
+    --font-size-headline-m: 2.4rem; /*24px*/
+    --font-size-headline-s: 2.0rem; /*20*/
+    --font-size-title-l: 1.8rem; /*18*/
+    --font-size-title-m: 1.6rem; /*16*/
+    --font-size-title-s: 1.4rem; /*14*/
+    --font-size-body-s: 1.2rem; /*12*/
+    --font-size-body-xs: 1rem; /*10*/
+    --font-size-title: 3.6rem; /*36*/
+    --font-size-title-j: 3.2rem; /*32*/
+
+    /* font-weight */
+    --font-weight-thin: 200;
+    --font-weight-regular: 300;
+    --font-weight-medium: 400;
+    --font-weight-large: 500;
+    --font-weight-bold: 600;
+    --font-weight-more-bold: 700;
+    --font-weight-black: 900;
+
+    /* font-family */
+    --font-family-jamsil: "TheJamsil", sans-serif;
+    --font-family-wanted: "wanted-sans", sans-serif;
+
+    /* radius */
+    --border-radius-sm: 10px;
+    --border-radius-m: 20px;
+    --border-radius-l: 30px;
+    --border-radius-xl: 40px;
+    --border-radius-xxl: 50px;
+}
+
+/* body {
+    font-family: var(--font-family-jamsil);
+} */
